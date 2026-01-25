@@ -5,6 +5,7 @@
   <title>Mechanical Engineering</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="assets/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
 
@@ -93,7 +94,136 @@
         </li>
 
         <li>
-          Design for dynamic loading: reversed beam bending test, stress cycles, fatigue life.
+          Design for dynamic loading: reversed beam bending test, stress cycles, fatigue life, reversed/repeated/fluctuating stresses, S-N (strength vs life) curve (log-log plot), stress amplitude, mean stress, endurance strength, ferrous/non-ferrous, estimated and corrected endurance strength-Marin factors, notch sensitivity of material (q), theoretical stress concentration, 
+          Theories of dynamic (fatigue) failure: Soderberg criteria, Goodman criteria, Gerber's criteri, ASME Elliptical criteria, Modified Goodman criteria,
+          Combined stresses in Fatigue, cumulative damage in fatigue - Miner's equation.
+        </li>
+        <li>
+          Design of joints: Riveted joint: head, shank, tail. lap/butt: single/double strap. types based on rows (one, two,...), relative position: chain, zig-zag.
+          Design parameters: width of plate, plate thickness, rivet diameter, hole diameter, pitch, transverse pitch, diagonal pitch, margin, total no of rivets, no of rivets in a row, allowable tensile stress of plate, allowable shear stress of rivet, allowable bearing/crushing stress of rivet.
+          Analysis: tearing strength of plate, shearing strength of joint, crushing/bearing strength of joint, strength of joint, efficiency of joint.
+          Welded joint: butt/fillet(parallel/transverse/circumferential).
+          Design parameters: plate width, thickness, weld length, leg size/size of fillet weld, throat thickness of fillet weld, allowable tensile stress of weld material, allowable shear stress of weld material.
+          Analysis: Butt joint tensile loading, butt joint shear loading, parallel fillet, transverse fillet, torsion of fillet welded joint. 
+          Bolted joint: Metric thread(right handed).
+          design parameters: root/core diameter, major/nominal/shank diameter, pitch, root thickness, thread height, pitch diameter, number of threads. standard relations for ISO metric thread, designation of metric threads. pretension/preload of bolted joints. stress in threads. eccentric loading of bolt/rivet joints. 
+        </li>
+        <li>
+          Design of Bearings: rolling contact bearings (rolling element, antifriction bearings): Ball bearings: deep groove - radial and axial load, angular contact - radial+axial load, self-aligning - shaft misalignment. Roller bearings: straight cylindrical - heavy radial load(no axial), tapered roller - radial+axial, spherical roller - shaft misalignment, needle roller - space constraint.
+          subject to dynamic loading - designed for life. \(L_{10}\) (minimum/rating life), \(L_{50}\) (median/average life). Load-life equation, basic dynamic load rating, life in hours, cumulative loading of rolling contact bearings. 
+          Sliding contact bearings (sleeve/journal bearings): L,d(short/long/square). Design parameters: journal radius, journal diameter, bearing(sleeve), sleeve diameter, radial clearance, diametral clearance, journal length, allowable bearing pressure, viscosity of lubricant. 
+          Analysis: resultant normal/radial force, resultant friction force, coefficient of friction, Petroff's equation, Frictional torque loss, frictional power loss, Sommerfield number.
+        </li>
+        <li>
+          Design of brakes and clutches: radial- block(internal/external(shoe)) brakes, band brakes, band and block brakes, centrifugal clutches. Design parameters: drum radius, block width, angle of contact, allowable pressure intensity of friction, coefficient of lining friction, maximum pressure intensity. 
+          Anslysis: resultant normal/radial force, resultant friction force, effective coefficient of friction, braking torque, band thickness, allowable tensile stress of band material, ratio of belt tension. 
+          Axial - disc brakes, disc/plate clutches (single/multiplate). Analysis: Uniform pressure, uniform wear.
+        </li>
+        <li>
+          Design of springs: helical, leaf (semi/quarter-elliptic). helical design parameters: mean coil diameter, wire diameter, spring index, pitch, total no of coils, active coils, free/natural length, solid length, uncoiled length, stiffness/spring constant/rate/scale, modulus of rigidity. Analysis: stress, strain energy, deflection, stiffness, end conditions and standard relations. 
+          Leaf spring parameters: width, thickness of each plate, no of plates, modulus of elasticity of spring material. Analysis: stress, deflection. 
+        </li>
+        <li>
+          Fluid properties, dimensional analysis: flow, thermodynamic properties: pressure, density, specific weight, weight density, temperature, energy, enthalpy, entropy, thermal conductivity. viscosity (no-slip condition), dynamic viscosity, Newton's law of viscosity, Kinematic viscosity, Bulk modulus of elasticity, Rheology, apparent viscosity, shear thickening/dilatant fluids, plastic fluids, ideal Bingham plastic, Time dependent viscous behaviour: rheopectic, thixotropic. ideal fluid(inviscid, incompressible). Surface tension, capillarity, coefficient of surface tension, surface energy density, pressure discontinuity at interface. cylindrical column, spherical drop, spherical bubble. 
+          imp forces involved: inertia force, viscous force, pressure force, gravity force, surface tension force, elastic force. Dimensional analysis: buckingham pi theorem. imp dimensionless numbers: reynolds number, euler number, froude number, weber number, mach number, strouhal number.
+        </li>
+        <li>
+          Fluid statics: stress, pascal's law, fundamental equation of fluid statics, incompressible fluid, piezometric head and law of fluid statics, pressure head, potential head, ideal gas, pressure measurement, manometers(simple u tube, inclined tube, differential), barometer. 
+          Pressure force on submerged surfaces: plane/curved, centre of pressure, buoyancy, stability of completely immersed bodies, equilibrium(stable/unstable/neutral), stability of floating bodies, metacentric height, water line area. 
+          Rigid body translation and rotation of fluid, pressure at any point, constant pressure surfaces.
+        </li>
+        <li>
+          Fluid kinematics: displacement, velocity field, acceleration field, coordinate system(cartesian, cylindrical polar), angular velocity field, curl, vorticity. flow types and visualization: steady/unsteady, uniform/non-uniform, 1/2/3 dimensional, rotational/irrotational. timeline, pathline, streamline, streakline. 
+          Volume flow rate, mass flow rate, average velocity, law of mass conservation - continuity equation(integral form, differential form), 2D potential floe (incompressible+irrotational), stream function, velocity potential, equipotential points, stagnation points.
+        </li>
+        <li>
+          Fluid dynamics: Linear momentum equation(integral form/differential form) - for system, control volume, impact of jet on stationary plate/moving plate, force on plate, inviscid flow(euler eqn), viscous incompressible flow of newtonian fluids. Energy equation (Bernoulli's equation), siphonic action, cavitation, measurement of flow velocity and flow rate, pitot tube, venturimeter, orificemeter.
+        </li>
+        <li>
+          Viscous incompressible internal flow:  velocity gradient, boundary layer, shear stress, shear force, relative velocity of flow, mass density of fluid, viscosity of fluid, skin friction coefficient, fully developed flow, flow between parallel plates, Navier stokes equation, velocity profile, average velocity, wall shear stress, friction factor.
+          Flow through pipes, losses(head, exit). External flow: development and growth of boundary layer, disturbance thickness, displacement thickness, momentum thickness, drag and lift force. Laminar boundary layer over flat plate - Karman-Pohlhausen's approximate method, velocity profile, wall shear, boundary layer thickness, skin friction coefficient, integrated drag coefficient, Blausius' exact method.
+          Turbulent boundary layer over flat plate - power law model, logarithmic velocity model, boundary layer separation, pressure gradient, wake, form drag, methods to avoid flow separation.
+        </li>
+        <li>
+          Turbomachinery: direction of energy transfer (turbines, pumps/compressor/fans), direction of fluid flow(radial flow, axial flow, mixed flow), motion of moving parts(reciprocating/+ve displacement machines, rotodynamic machines), energy component used(impulse turbine(pelton wheel)/reaction turbine(francis and kaplan)).
+          Dimensionless parameter: power coefficient, head coefficient, specific speed, unit discharge. Power equation, velocity components(triangle), whirl, blade angle, tangential force, torque, euler equations, stator, rotor, hydraulic efficiency, mechanical efficiency, overall effiiency, pelton wheel, power developed, number of buckets, francis turbine, guide vanes, degree of reaction, draft tube, Kaplan turbine.
+        </li>
+        <li>
+          Modes of heat transfer: conduction, convection, radiation. Steady state conduction, fourier's law, heat flux, rate of heat generation, Fourier-Biot equation, poisson, diffusion, laplace equation. 
+          plane wall - equation, temperature profile, rate of heat transfer, thermal resistance. hollow cylinder, hollow sphere, composite objects, overall thermal resistance. Critical radius of insulation.
+        </li>
+        <li>
+          Transient conduction and fins: lumped capacity model, Biot number, fourier number, heat lost, extended surfaces/fins: traight/longitudinal, annular/radial, pin fins/spines. general fin equation, fins of uniform cross sectional area, boundnary conditions(base and tip), infinitely long fin, fin with insulated(adiabatic) tip, convective tip, fin effectiveness, fin efficiency, fin array.
+        </li>
+        <li>
+          Convection: mechanism(free/forced), thermal boundary layer, thickness, newton's law of cooling, convection coefficient, dimentionless numbers: Nusselt, Reynolds, Prandtl, Stanton, Grashoff. thermal diffusivity, kinematic viscosity.
+          External forced convection(local and overall heat transfer coefficient), laminar flow over flat isothermal plate, turbulent flow over flat isothermal plate, laminar/turbulent flow over flat plate subjected to uniform heat flux.
+          Internal forced convection: mean velocity and temperature.
+        </li>
+        <li>
+          Radiation: mechanism(EMW, photons), spectral and directional distributions. Emissive power, irradiation, radiosity, absorptivity, transmissivity, reflectivity, opaque and specular bodies, diffuse, black, gray surfaces, view factor relations, reciprocity rule, summation rule, infinitely long triangular enclosure, Hottel's cross string rule, two infinitely long parallel surfaces. 
+          Radiation heat transfer, small object in large cavity, infinitely long parallel plates, infinitely long parallel plates with radiation shield infinitely long concentric cylinders, infinitely long concentric spheres.
+        </li>
+        <li>
+          Heat exchangers: double pipe/concentric tube, parallel/counter flow, compact, shell and tube, overall heat ransfer coefficient, LMTD (log mean temperature difference), condenser, boiler, heat capacity rate, NTU(number of transfer units), effectiveness.
+        </li>
+        <li>
+          Substances(working fluid): system, surroundings, intensive/extensive properties, equilibrium, pure substance, process(reversible/irreversible), thermodynamic cycle, p-T diagram, saturation pressure and temperature, sensible/latemt heating,
+          subcooled/compressed, saturated, superheated states, critical pressure, dryness fraction, quality of steam, p-v diagram, property tables, ideal gas, equation of state, isothermal lines.
+        </li>
+        <li>
+          Thermodynamics: first law, non-flow vs flow process, continuity, intrinsic and transient energy, displacement, shaft, flow, electrical work, enthalpy, specific heat capacity, ideal gas reltions, unsteady/steady flow energy equation for control volume.
+          Second law: thermal reservoir, heat engine and thermal efficiency, refrigerator/heat pump and COP. Carnot's theorem, Clausius inequality, irreversibility. 
+          Entropy(cyclic integral), Tds equations, entropy change of ideal gas in a process, of an incompressible substance in a process, reversible adiabatic process, increade of entropy principle, significance of entropy, adiabatic/polytropic index, p-v and T-s plots for various processes, isochoric, isobaric, isothermal, adiabatic.
+          Reversible process: work, heat, state/path function. 
+          Availability and irreversibility, dead state, unrestrained expansion, throttling, adiabatic expansion in a turbine, adiabatic compression in a compressor.
+        </li>
+        <li>
+          Power engineering: Steam power cycles, carnot cycle, rankine cycle, thermal efficiency, specific steam consumption, isentropic efficiency, modifications - mean temperature of heat addition, superheat, reheat, regeneration. Gas power cycle - gas turbine, brayton cycle, pressure ratio.
+        </li>
+        <li>
+          IC Engines: fundamentals, 2 stroke, 4 stroke, spark ignition(SI), compression ignition(CI), intake, compression, power, exhaust stroke, parts of engine, bore, stroke, work per cycle, indicated power, mean effective pressure, brake power, brake MEP, thermal, mechanical, brake thermal efficiency, clearance, total, swept volume, compression ratio, 
+          Air standard cycles, otto, diesel, dual cycle. 
+        </li>
+        <li>
+          Refrigeration: COP, reversed carnot, reversed brayton, vapour refrigeration, ideal VCRS cycle, refrigerants, halogenated compounds, inorganic refrigerants, nomenclature, comparison.
+        </li>
+        <li>
+          Psychrometry: air, properties, saturation line, dew point, humidity, relative humidity, specific humidity/humidity ratio, enthalpy, specific volume, wet bulb temperature, psychrometric processes - sensible heating/cooling, humidification, cooling and dehumidification, chemical dehumidification, mixing of air streams.
+        </li>
+        <li>
+          Materials Science: Crystal structure- cubic, BCC, FCC, HCP. atomic packing factor (APF), imperfections/defects - point, line, surface. vacancy, interstitial, substitutional. dislocations - edge, screw. 
+          Mechanical properties: stress-strain, elastic-plastic, properties - strength, hardness, stiffness, ductility, malleability, brittleness, toughness and resilience, elasticity, 
+          Metal alloys, interstitial/substitutional solid solution, phase equilibrium diagrams - isomorphous system, binary eutectic, iron-carbon - ferrite, austenite, pearlite, cementite. Steel - chromium, manganese, molybdenum, nickel, grey cast iron.
+          Heat tratment of steel - microstructural change due to varying cooling rates, eutectoid, hypoeutectoid, hypereutectoid transformation, tempering, annealing, normalizing, case hardening, carburizing, nitriding, cyaniding.
+        </li>
+        <li>
+          Manufacturing: Casting: pattern materials, types, allowance, mould, Gating system - pouring basin, sprue, sprue well/base, runner, gates, runner extension, gating, filling time (vertical/top gating, bottom gating), design, casting solidification and riser design, chvorinov's rule. 
+          expendable mold casting process, green sand mould, additives, flowability, green and dry strength, collapsibility, permeability, refractoriness, dry sand mould casting, sodium silicate CO2 process, shell moulding, investment casting, multiple-use-mold casting process, gravity die casting, pressure-die, centrifugal, casting defects - misrun, cold shut, shrinkage cavity, micro porosity, hot tearing, sand blow/blow holes, pin holes, sand wash, scab, penetration, mold shift, core shift, chaplets.
+        </li>
+        <li>
+          Forming: rolling, forgine, extrusion, drawing, sheet metal forming, true stress and strain, rolling mill configurations, analysis of flat rolling: initial/final sheet thickness, width, roll radius, angle of contact(bite angle), coefficient of friction, constant peripheral velocity of each roll, velocity of flow of sheet through roll gap, condition of rolling, draft, maximum possible draft, length of contact, neutral point, roll force, torque, power.
+          Open die forging, closed-die, swaging, upset forging, slab forging, approximate forging force, analysis, disc forging, rod/wire/tube drawing, drawing stress, drawing force and pwoer, maximum possible draft/reduction, back stress, extrusion - direct, indirect, impact, hydrostatic. Analysis of extrusion - johnson's equation, extrusion constant.
+          Shearing operations - punching, blanking, parting, slitting, perforating, lancing, notching, nibbling, Analysis - force required for shearing, fraction penetration, clearance, bending (V, edge), bending force, bend allowance, springback, deep drawing, clearace, drawing ratio, drawing force.
+        </li>
+        <li>
+          Welding: solid state - forge, butt, friction, ultrasonic, explosive welding. Fusion welding - electric arc, source characteristic, ionization, voltage drop vs arc length, energy requirement and efficiency, shielded metal arc welding(SMAW), gas metal, gas tungsten, submerged. Electric resistance welding - electroslag, spot, seam, projection welding, energy requirement and efficiency. chemical - oxy-acetylene gas welding, flames(neutral, oxidizing, carburizing). thermit welding.
+        </li>
+        <li>
+          Machining: turning - plain, taper, step, facing, grooving, boring. parameters - cutting speed, feed, depth of cut, cutting time, chip formation, material removal rate. 
+          Shaping, planing, milling - peripheral/plain-slab, slot, side, straddle, up vs down milling. face/end milling - conventional, partial face milling. drilling - reaming, tapping, centering.
+          Tool geometry - single point turning tool, reference planes, principal cutting edge, flank, orthogonal rake system, rake angle, clearance angle, tool signature, tool life and wear - diffusion, adhesion, abrasion, electrochemical diffusion, crater wear, flank wear, Taylor's tool life equation, Taylor's constant.
+          mechanics of orthogonal vs oblique machining, shear angle determination, cutting/shear strain, velocity relations, built up edge, forces, merchant circle, resultant force, coefficient of friction, ernst merchant theory, energy considerations.
+          electrochemical machining, electric discharge machining, ultrasonic machining, abrasive jet machining. 
+        </li>
+        <li>
+          Metrology - system of fits, tolerances, basic size, lower/upper/fundamental deviation, fit - clearance, interference, transition fit. hole basis, shaft basis, limit gauges.
+        </li>
+        <li>
+          computer intrgrated manufacturing - NC, G code, M code, CNC, part program.
+        </li>
+        <li>
+          Production planning and control (PPC), APP, MPS, forecasting, timeseries models, aggregate planning and MRP, inventory control, scheduling, sequencing, Operations research, linear programming, transportation and queuing program, project management, 
         </li>
       </ol>
     </section>
